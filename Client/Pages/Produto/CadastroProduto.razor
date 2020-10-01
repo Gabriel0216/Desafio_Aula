@@ -1,0 +1,47 @@
+@page "/Produto/CadastroProduto"
+@using System.Net.Http
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Desafio_Aula.Shared;
+
+<div class="card m-3">
+    <h4 class="card-header">Cadastrar novo Produto</h4>
+    <div class="card-body">
+        <EditForm Model="@produto" OnSubmit="HandleValidSubmit" >
+            <DataAnnotationsValidator/>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label>Nome</label>
+                    <InputText class="form-control" @bind-Value="produto.Nome"/>
+                    <ValidationMessage For="@(() => produto.Nome)" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label>Descricao</label>
+                    <InputTextArea class="form-control" @bind-Value="produto.Descricao"/>
+                    <ValidationMessage For="@(() => produto.Descricao)" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label>Preço</label>
+                    <InputNumber class="form-control" @bind-Value="produto.Preco"/>
+                    <ValidationMessage For="@(() => produto.Preco)" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Salvar</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code{
+    private Produto produto = new Produto();
+
+    private async Task HandleValidSubmit(){
+        var teste = await Http.PostAsJsonAsync("/api/Produto/Create", produto);
+        NavigationManager.NavigateTo("Produto/ListaProdutos");
+    }
+}
