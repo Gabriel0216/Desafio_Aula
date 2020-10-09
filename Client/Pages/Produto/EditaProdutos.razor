@@ -1,4 +1,4 @@
-@page "/Produto/EditaProduto"
+@page "/Produto/EditaProduto/{id}"
 @using System.Net.Http
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
@@ -39,14 +39,17 @@
 
 @code{
     private Produto produto = new Produto();
+    [Parameter]
+    public string id { get; set; }
 
     protected override async Task OnInitializedAsync(){
-        //var id = 
-        var produtos = await Http.GetFromJsonAsync<List<Produto>>("api/Produto/List/");
+        var idItem = id;
+        var produtos = await Http.GetFromJsonAsync<Produto>($"api/Produto/GetById/{idItem}");
+        produto = produtos;
     }
 
     private async Task HandleValidSubmit(){
-        var teste = await Http.PostAsJsonAsync("/api/Produto/Create", produto);
+        var teste = await Http.PutAsJsonAsync($"/api/Produto/Edit/", produto);
         NavigationManager.NavigateTo("Produto/ListaProdutos");
     }
 }

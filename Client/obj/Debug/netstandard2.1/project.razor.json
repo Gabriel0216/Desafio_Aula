@@ -173,39 +173,6 @@
         }
       },
       {
-        "HashCode": 45689347,
-        "Kind": "Components.Component",
-        "Name": "Desafio_Aula.Client.Pages.Produto.EditaProdutos",
-        "AssemblyName": "Desafio_Aula.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditaProdutos"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Desafio_Aula.Client.Pages.Produto.EditaProdutos"
-        }
-      },
-      {
-        "HashCode": 162619999,
-        "Kind": "Components.Component",
-        "Name": "Desafio_Aula.Client.Pages.Produto.EditaProdutos",
-        "AssemblyName": "Desafio_Aula.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Desafio_Aula.Client.Pages.Produto.EditaProdutos"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Desafio_Aula.Client.Pages.Produto.EditaProdutos",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1183676296,
         "Kind": "Components.Component",
         "Name": "Desafio_Aula.Client.Pages.Produto.ListaProdutos",

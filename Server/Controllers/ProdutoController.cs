@@ -22,7 +22,7 @@ public class ProdutoController : Controller{
     }
 
     [HttpGet]
-    [Route("List/{id}")]
+    [Route("GetById/{id}")]
     public async Task<IActionResult> Get([FromRoute] int id){
         var produtos = await banco.Produtos.FindAsync(id);
         return Ok(produtos);
@@ -49,14 +49,11 @@ public class ProdutoController : Controller{
         }
     }
 
-    [HttpPost]
-    [Route("Put/{id}")]
-    public async Task<IActionResult> Put([FromRoute] int id, [FromBody] Produto prod){
+    [HttpPut]
+    [Route("Edit/")]
+    public async Task<IActionResult> Put([FromBody] Produto prod){
         if(!ModelState.IsValid){
             return BadRequest(ModelState);
-        }
-        if(id != prod.Id){
-            return BadRequest();
         }
 
         banco.Entry(prod).State = EntityState.Modified;

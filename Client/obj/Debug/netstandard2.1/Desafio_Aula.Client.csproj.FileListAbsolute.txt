@@ -575,7 +575,6 @@ C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\Razor\_Imports.razor.
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\Desafio_Aula.Client.RazorTargetAssemblyInfo.cache
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\Desafio_Aula.Client.csproj.CopyComplete
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\7QrfTRRHpJBhazMHloAcrC7pls4PzsqDfcFnFmwEAbA=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -628,14 +627,12 @@ C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\_kkwUt5LUrF
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\_8PtwbvSyPUEsTwLx1h-xfGINBs33-J4NGiEyfXtG0Y=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\wFmrSp1Xnawpn9_6JareEOMxIAL0hdeJLB9KUyYdLdY=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\l6PbySrVVJ5o93eziaXNjztZeY4MTAJT9iOvP98Oam4=.hash
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Desafio_Aula.Client.dll.gz
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Text.Json.dll.gz
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Runtime.CompilerServices.Unsafe.dll.gz
@@ -760,3 +757,6 @@ C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\staticwebassets\Desaf
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\staticwebassets\Desafio_Aula.Client.StaticWebAssets.xml
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\Desafio_Aula.Client.dll
 C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\Desafio_Aula.Client.pdb
+C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\XIjpzgUFSKh4PbFddojtsHEZ0HpvOn4pqJ0a185d7qA=.hash
+C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\KNN0fz68cbffmpQ1Yzc7SXrkb6VeBiNu2H7NWrRjnEc=.hash
+C:\wamp64\www\Desafio_Aula\Client\obj\Debug\netstandard2.1\integrity\vRPsRWHoYUXReywZLj1m95sBC30-xYJ59Xp3laNpGSA=.hash

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7QrfTRRHpJBhazMHloAcrC7pls4PzsqDfcFnFmwEAbA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\XIjpzgUFSKh4PbFddojtsHEZ0HpvOn4pqJ0a185d7qA=.hash",
       "Source": "C:\\wamp64\\www\\Desafio_Aula\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Desafio_Aula.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Desafio_Aula.Client.dll.gz"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_8PtwbvSyPUEsTwLx1h-xfGINBs33-J4NGiEyfXtG0Y=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KNN0fz68cbffmpQ1Yzc7SXrkb6VeBiNu2H7NWrRjnEc=.hash",
       "Source": "C:\\wamp64\\www\\Desafio_Aula\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Desafio_Aula.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Desafio_Aula.Client.pdb.gz"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\l6PbySrVVJ5o93eziaXNjztZeY4MTAJT9iOvP98Oam4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vRPsRWHoYUXReywZLj1m95sBC30-xYJ59Xp3laNpGSA=.hash",
       "Source": "C:\\wamp64\\www\\Desafio_Aula\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

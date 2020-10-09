@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Desafio_Aula.Client.dll": "sha256-7QrfTRRHpJBhazMHloAcrC7pls4PzsqDfcFnFmwEAbA=",
+      "Desafio_Aula.Client.dll": "sha256-XIjpzgUFSKh4PbFddojtsHEZ0HpvOn4pqJ0a185d7qA=",
       "System.Text.Json.dll": "sha256-HQeN+ZfHAERO+uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-kL\/omZDwqByAi+lPdMeDmr3XjHcn4RVb+LmZ4mut1Yc=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Desafio_Aula.Client.pdb": "sha256-+8PtwbvSyPUEsTwLx1h\/xfGINBs33\/J4NGiEyfXtG0Y=",
+      "Desafio_Aula.Client.pdb": "sha256-KNN0fz68cbffmpQ1Yzc7SXrkb6VeBiNu2H7NWrRjnEc=",
       "Desafio_Aula.Shared.pdb": "sha256-wFmrSp1Xnawpn9+6JareEOMxIAL0hdeJLB9KUyYdLdY="
     },
     "runtime": {

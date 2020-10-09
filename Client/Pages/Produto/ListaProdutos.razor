@@ -22,7 +22,7 @@
                     <td>@item.Descricao</td>
                     <td>@item.Preco</td>
                     <td>
-                        <button class="btn btn-success" @onclick="@(() => EditarProduto(item.Id))">Editar</button>
+                        <a href="/Produto/EditaProduto/@item.Id.ToString()"><button class="btn btn-success">Editar</button></a>
                         <button class="btn btn-danger" @onclick="@(() => DeletarProduto(item.Id))">Excluir</button>
                     </td>
                 </tr>
@@ -41,12 +41,8 @@
         }
     }
 
-    private void EditarProduto(int id){
-        NavigationManager.NavigateTo($"Produto/EditaProdutos/{id}");
-    }
-
     private async Task DeletarProduto(int id){
         var del = await Http.DeleteAsync($"api/Produto/Delete/{id}");
-        NavigationManager.NavigateTo("Produto/ListaProdutos");
+        NavigationManager.NavigateTo("/Produto/ListaProdutos");
     }
 }
